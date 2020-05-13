@@ -5,6 +5,7 @@ $navData = [
     "survival" => ["name" => "Survival", "class" => "", "show" => true],
     "games" => ["name" => "Minigames", "class" => "", "show" => true],
     "gpvp" => ["name" => "Guild PVP", "class" => "", "show" => true],
+    "rules" => ["name" => "Fake Rules", "class" => "", "show" => true],
     "team" => ["name" => "Our Team", "class" => "", "show" => true],
     "contact" => ["name" => "Wusi", "class" => "", "show" => false],
 ];
