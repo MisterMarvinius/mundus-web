@@ -8,10 +8,10 @@
         <?php foreach($carouselData as $data) : ?>
             <div class="carousel-item <?= $data["class"] ?>">
                 <img class="d-block w-100" src="images/<?= $data["path"] ?>" alt="<?= $data["alt"] ?>">
-                    <div class="carousel-caption d-md-block text-left">
-                        <h1><?= $data["title"] ?></h1>
-                        <p class="lead"><?= $data["text"] ?></p>
-                    </div>
+                <div class="carousel-caption d-md-block text-left">
+                    <h1><?= $data["title"] ?></h1>
+                    <p class="lead"><?= $data["text"] ?></p>
+                </div>
             </div>
         <?php endforeach; ?>
     </div>
@@ -56,18 +56,19 @@
         </div>
     </div>
 
-    <hr class="featurette-divider"/>
+    <!--<hr class="featurette-divider"/>
     <div class="row featurette">
         <div class="col-lg-7 vertical-center">
             <h2 class="featurette-heading">Guild PVP</h2>
             <p class="lead">
-                Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. 
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+				Guild PVP is all about choosing a class and level to unlock new skills.
+				You can found guilds to play together with your friends and start sieging the guilds of others.
+				Are you ready for the battlefields of Mundus Crassus?
             </p>
             <a class="btn btn-secondary" href="?site=gpvp">Learn more</a>
         </div>
         <div class="col-lg-5">
             <img class="img-fluid rounded" src="images/gpvp_dungeon.png" alt="Guild PVP Dungeon">
         </div>
-    </div>
+    </div>-->
 </div>
