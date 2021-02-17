@@ -26,13 +26,18 @@
 </div>
 
 <div class="container">
+	<br>
+	<span style="font-size:18pt"><b>Join our <a href="https://discord.gg/AjwBpm5">Discord</a> to download the mod.</b></span>
+	<br>
+	<br>
     <div class="row featurette">
         <div class="col-lg-7 vertical-center">
             <h2 class="featurette-heading">Survival</h2>
             <p class="lead">
                 Mundus Crassus offers a unique survival feeling by our mod. The mod features many new blocks and items.
                 All additions were made with care to fit into Vanilla Minecraft. The system also provides protections to
-                secure your land from others.
+                secure your land from others.<br>
+				<br>
             </p>
             <a class="btn btn-secondary" href="?site=survival">Learn more</a>
         </div>
@@ -46,8 +51,7 @@
         <div class="col-lg-7 order-lg-2 vertical-center">
             <h2 class="featurette-heading">Minigames</h2>
             <p class="lead">
-                Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. 
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+                Need a break from survival? For in between we offer our players a range of different single- and multiplayer games.
             </p>
             <a class="btn btn-secondary" href="?site=games">Learn more</a>
         </div>

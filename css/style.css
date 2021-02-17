@@ -11,3 +11,83 @@ body {
     margin-top: auto;
     margin-bottom: auto;
 }
+
+.spacer {
+    margin-top: 20px;
+}
+
+.box-padding {
+    padding-bottom: 10px;
+}
+
+.box {
+    /*border-width: 1px;
+    border-style: solid;*/
+    border-radius: 6px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+
+    height: 100%;
+}
+
+.rank-1 {
+    background-color: #00AAAA;
+    color: black;
+}
+
+.rank-2 {
+    background-color: #FFFF55;
+    color: black;
+}
+
+.rank-3 {
+    background-color: #FFAA00;
+    color: black;
+}
+
+.rank-4 {
+    background-color: #00AA00;
+    color: black;
+}
+
+.rank-owner {
+    background-color: #AA0000;
+    color: white;
+}
+
+.rank-admin {
+    background-color: #FF5555;
+    color: black;
+}
+
+.rank-builder-dev {
+    background-color: #AA00AA;
+    color: white;
+}
+
+.rank-mod {
+    background-color: #5555FF;
+    color: white;
+}
+
+.rank-supporter {
+    background-color: #55FFFF;
+    color: black;
+}
+
+.rank-vip {
+    background-color: #FF55FF;
+    color: black;
+}
+
+.rank-name {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.rank-description {
+    font-size: 0.75em;
+}
