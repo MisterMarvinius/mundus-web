@@ -9,6 +9,8 @@ $navData = [
     "ranks" => ["name" => "Ranks", "class" => "", "show" => true],
     "team" => ["name" => "Our Team", "class" => "", "show" => true],
     "contact" => ["name" => "Wusi", "class" => "", "show" => false],
+    "disclaimer" => ["name" => "Wusi", "class" => "", "show" => false],
+    "thanks" => ["name" => "Wusi", "class" => "", "show" => false],
 ];
 
 $includePath = "error.php";

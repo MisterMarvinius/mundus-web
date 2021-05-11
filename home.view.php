@@ -26,10 +26,12 @@
 </div>
 
 <div class="container">
-	<br>
-	<span style="font-size:18pt"><b>Join our <a href="https://discord.gg/AjwBpm5">Discord</a> to download the mod.</b></span>
-	<br>
-	<br>
+	<div class="row featurette text-center">
+	    <div class="col-lg-12">
+	        <h2 class="featurette-heading">Join our <a href="https://discord.gg/AjwBpm5">Discord</a> to download the mod.</h2>
+	    </div>
+	</div>
+	<hr class="featurette-divider"/>
     <div class="row featurette">
         <div class="col-lg-7 vertical-center">
             <h2 class="featurette-heading">Survival</h2>
@@ -45,7 +47,6 @@
             <img class="img-fluid rounded" src="images/survival.png" alt="Survival Spawn">
         </div>
     </div>
-
     <hr class="featurette-divider"/>
     <div class="row featurette">
         <div class="col-lg-7 order-lg-2 vertical-center">
