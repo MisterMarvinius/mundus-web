@@ -1,14 +1,16 @@
 <?php
 
 $navData = [
-    "home" => ["name" => "Home", "class" => "", "show" => true],
+    "home" => ["name" => "Home", "class" => "", "show" => false],
     "survival" => ["name" => "Survival", "class" => "", "show" => true],
     "games" => ["name" => "Minigames", "class" => "", "show" => true],
+    "story" => ["name" => "Story", "class" => "", "show" => true],
+    "creative" => ["name" => "Creative", "class" => "", "show" => true],
     //"gpvp" => ["name" => "Guild PVP", "class" => "", "show" => true],
     "rules" => ["name" => "Fake Rules", "class" => "", "show" => true],
     "ranks" => ["name" => "Ranks", "class" => "", "show" => true],
     "team" => ["name" => "Our Team", "class" => "", "show" => true],
-    "contact" => ["name" => "Wusi", "class" => "", "show" => false],
+    "contact" => ["name" => "Donate", "class" => "", "show" => true],
     "disclaimer" => ["name" => "Wusi", "class" => "", "show" => false],
     "thanks" => ["name" => "Wusi", "class" => "", "show" => false],
 ];

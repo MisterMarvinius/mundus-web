@@ -44,7 +44,7 @@
             <a class="btn btn-secondary" href="?site=survival">Learn more</a>
         </div>
         <div class="col-lg-5">
-            <img class="img-fluid rounded" src="images/survival.png" alt="Survival Spawn">
+            <img class="img-fluid rounded" src="images/survival.jpg" alt="Survival Spawn">
         </div>
     </div>
     <hr class="featurette-divider"/>
@@ -57,10 +57,37 @@
             <a class="btn btn-secondary" href="?site=games">Learn more</a>
         </div>
         <div class="col-lg-5 order-lg-1">
-            <img class="img-fluid rounded" src="images/dame.png" alt="Games Spawn">
+            <img class="img-fluid rounded" src="images/dame.jpg" alt="Games Spawn">
         </div>
     </div>
-
+	<hr class="featurette-divider"/>
+    <div class="row featurette">
+        <div class="col-lg-7 vertical-center">
+            <h2 class="featurette-heading">Story</h2>
+            <p class="lead">
+                Speak with humans in a separate world. They will tell you their story and needs. Complete quests and they will offer you various skills, which can be used in survival world.<br>
+				<br>
+            </p>
+            <a class="btn btn-secondary" href="?site=story">Learn more</a>
+        </div>
+        <div class="col-lg-5">
+            <img class="img-fluid rounded" src="images/story.jpg" alt="Story Oma">
+        </div>
+    </div>
+	<hr class="featurette-divider"/>
+    <div class="row featurette">
+        <div class="col-lg-7 order-lg-2 vertical-center">
+            <h2 class="featurette-heading">Creative</h2>
+            <p class="lead">
+                Let your creativity flow. In gamemode creative you can build whatever you want. Protect your structures and impress your friends.
+            </p>
+            <a class="btn btn-secondary" href="?site=creative">Learn more</a>
+        </div>
+        <div class="col-lg-5 order-lg-1">
+            <img class="img-fluid rounded" src="images/creative.jpg" alt="Creative">
+        </div>
+    </div>
+	
     <!--<hr class="featurette-divider"/>
     <div class="row featurette">
         <div class="col-lg-7 vertical-center">
@@ -73,7 +100,7 @@
             <a class="btn btn-secondary" href="?site=gpvp">Learn more</a>
         </div>
         <div class="col-lg-5">
-            <img class="img-fluid rounded" src="images/gpvp_dungeon.png" alt="Guild PVP Dungeon">
+            <img class="img-fluid rounded" src="images/gpvp_dungeon.jpg" alt="Guild PVP Dungeon">
         </div>
     </div>-->
 </div>

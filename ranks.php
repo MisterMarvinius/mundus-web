@@ -108,7 +108,7 @@
         <div class="col-md box-padding">
             <div class="box rank-owner">
                 <span class="rank-name">Owner</span><br>
-                <span class="rank-description">kajetanjohannes</span>
+                <span class="rank-description">Shiny like a god</span>
             </div>
         </div>
     </div>
@@ -116,9 +116,7 @@
         <div class="col-md box-padding">
             <div class="box rank-admin">
                 <span class="rank-name">Admin</span><br>
-                <span class="rank-description">
-                    marvinius, MentorMentos, eropster, wertibaldi
-                </span>
+                <span class="rank-description">Look more important than they are</span>
             </div>
         </div>
     </div>
@@ -134,7 +132,7 @@
                 <div class="col-12 box-padding">
                     <div class="box rank-mod">
                         <span class="rank-name">Moderator</span><br>
-                        <span class="rank-description">SirTerence7</span>
+                        <span class="rank-description">Never ever apply for that</span>
                     </div>
                 </div>
             </div>
@@ -152,7 +150,7 @@
         <div class="col-md box-padding">
             <div class="box rank-vip">
                 <span class="rank-name">Influencer / Sponsor / VIP</span><br>
-                <span class="rank-description">Be famous</span>
+                <span class="rank-description">Be famous, smile and wave ;-)</span>
             </div>
         </div>
     </div>

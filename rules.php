@@ -1,4 +1,5 @@
 <div class="container mt-4">
+	In the last years we experienced a lot of unneccessary rules on different minecraft servers. So we have no rules. Instead have fun with our listing of the observed behavior of different roles.<br><br>
     <h3>Rules for the Owner</h3>
     <ol>
         <li>Fuck rules, you are owner.</li>
