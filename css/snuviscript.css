@@ -1,0 +1,159 @@
+body {
+	background-color: #303030;
+}
+
+.textwall-container {
+	text-align: justify;
+	font-family: sans-serif;
+	margin-left: 20%;
+	margin-right: 20%;
+	flex: 1;
+}
+
+@media only screen and (max-width: 1000px) {
+	.textwall-container {
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+}
+
+#snuviscript table
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    table-layout: fixed;
+    overflow-wrap: break-word;
+}
+
+.bold
+{
+    font-weight: bold !important;
+    text-align: right;
+}
+
+.command
+{
+    font-weight: bold !important;
+    width: 30%;
+    text-align: left;
+    color: #D0D0D0;
+}
+
+.desc
+{
+    font-weight: bold !important;
+    text-align: left;
+    color: #D0D0D0;
+}
+
+#snuviscript table, #snuviscript th, #snuviscript td
+{
+    border-width: 2px;
+    border-color: #202020;
+    border-style: solid;	
+    border-collapse: collapse;
+    font-weight: normal;
+	font-family: "Montserrat", sans-serif;
+}
+
+#snuviscript td
+{
+    background-color: #707070;
+    padding: 5px;
+}
+
+#snuviscript th
+{
+    background-color: #505050;
+    padding: 5px;
+}
+
+.menu
+{
+    background-color: #602020;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    padding: 5px;
+    
+    border-width: 2px;
+    border-color: #202020;
+    border-style: solid;
+	
+	font-family: "Montserrat", sans-serif;
+}
+
+#snuviscript table a
+{
+    text-decoration: none;
+    color: #801010;
+}
+
+#snuviscript table a:hover
+{
+    color: #700000;
+}
+
+.menu a
+{
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.whitePipe
+{
+    padding-right: 8px;
+    margin-right: 8px;
+
+    border-right-width: 1px;
+    border-right-color: #FFFFFF;
+    border-right-style: solid;
+}
+
+.menu a:hover
+{
+    color: #CCCCCC;
+}
+
+.snuviTitle
+{
+    background-color: #602020;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    border-width: 2px;
+    border-color: #202020;
+    border-style: solid;
+    
+    font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+}
+
+#snuviscript section
+{
+    margin-bottom: 50px;   
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+@media(max-width: 788px) 
+{
+    .command
+    {
+        width: 40%;
+        font-size: 14px;
+    }
+    
+    #snuviscript td, #snuviscript th, .menu a
+    {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,29 @@
+RewriteEngine On
+
+<IfModule mod_rewrite.c>
+
+    # 1. Redirect HTTP to HTTPS
+    RewriteCond %{HTTPS} off
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # 2. Trim URL to the first element
+    RewriteCond %{REQUEST_URI} ^/([^/]+)(/.*|\.php.*)$
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule .* /%1 [R=301,L]
+
+    # 3. Handle directories (add trailing slash)
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^([^/]+)$ /$1/ [R=301,L]
+
+    # 4. Handle PHP files (remove .php and serve if file exists)
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^([^/]+)$ /$1.php [NC,L]
+
+    # 5. Deny access to
+    RewriteRule ^\.git/ - [R=403,L]
+
+</IfModule>
+
+# Custom error pages
+ErrorDocument 404 /error.php
