@@ -54,13 +54,16 @@ body {
     border-style: solid;	
     border-collapse: collapse;
     font-weight: normal;
-	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	font-family: "Lucida Console", Monaco, monospace;
+	line-height: 1.5;
 }
 
 #snuviscript td
 {
     background-color: #707070;
     padding: 5px;
+	color: #212529;
 }
 
 #snuviscript th
@@ -76,12 +79,14 @@ body {
     margin-bottom: 10px;
     
     padding: 5px;
+	line-height: 1.5;
     
     border-width: 2px;
     border-color: #202020;
     border-style: solid;
 	
-	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	font-family: "Lucida Console", Monaco, monospace;
 }
 
 #snuviscript table a
@@ -123,6 +128,9 @@ body {
 
     padding-top: 8px;
     padding-bottom: 8px;
+	line-height: 1.5;
+	
+	margin-top: 10px;
     
     text-align: center;
     
@@ -132,8 +140,9 @@ body {
     border-color: #202020;
     border-style: solid;
     
+    font-SIZE: 18px;
     font-weight: bold;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Lucida Console", Monaco, monospace;
 }
 
 #snuviscript section
