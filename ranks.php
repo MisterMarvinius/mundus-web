@@ -45,8 +45,8 @@
 			</div>
 			<div class="col-md box-padding">
 				<div class="box rank-2">
-					<span class="rank-name">Challenger</span><br>
-					<span class="rank-description">Complete challenge "All Damage Types"</span>
+					<span class="rank-name">Gladiator</span><br>
+					<span class="rank-description">Complete odyssey "All Damage Types"</span>
 				</div>
 			</div>
 		</div>
@@ -83,8 +83,8 @@
 			</div>
 			<div class="col-md box-padding">
 				<div class="box rank-3">
-					<span class="rank-name">Mobhunter</span><br>
-					<span class="rank-description">Complete challenge "All Entites"</span>
+					<span class="rank-name">Slayer</span><br>
+					<span class="rank-description">Complete odyssey "All Entites"</span>
 				</div>
 			</div>
 		</div>
@@ -122,7 +122,7 @@
 			<div class="col-md box-padding">
 				<div class="box rank-4">
 					<span class="rank-name">Collector</span><br>
-					<span class="rank-description">Complete challenge "All Items"</span>
+					<span class="rank-description">Complete odyssey "All Items"</span>
 				</div>
 			</div>
 		</div>

@@ -10,6 +10,7 @@
 			<li>Fuck rules, you are owner.</li>
 			<li>People do not really like you. They just want permissions from you.</li>
 			<li>Let bugs sink through to everybody before fixing them.</li>
+			<li>Blame your bugs on the snuvi devs and let them check their code twice.</li>
 		</ol>
 		<h4>Admins</h4>
 		<ol>

@@ -1,7 +1,7 @@
 <template id="main">
 	<div class="textwall-container" id="snuviscript">
 	<?php 
-		include "/home/minecraft/paper/scripts/docu_minecraft.php";
+		include "/home/minecraft/scripts/docu_minecraft.php";
 	?>
 	</div>
 	<script src="js/snuviscript.js"></script>

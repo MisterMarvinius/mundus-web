@@ -76,7 +76,7 @@
 			<div class="feature_container">
 				<h2 class="feature_heading">Gemstones</h2>
 				<img class="feature_image" src="images/survival/survival_gemstones.jpg" alt="Survival Gemstones">
-				<p>Upgrade your strength and armor by using gemstones at the jewlery smith. Get gemstones in the mobarena and by doing challenges.<br></p>
+				<p>Upgrade your strength and armor by using gemstones at the jewlery smith. Get gemstones in the mobarena and by doing odysseys.<br></p>
 			</div>
 			<div class="feature_container">
 				<h2 class="feature_heading">Selfmade</h2>
