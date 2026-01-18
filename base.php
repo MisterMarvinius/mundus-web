@@ -10,7 +10,7 @@ $navData = [
 	"team" => 		["name" => "Team", 			"show" => true, "dropdown" => ""],
 	"snuvi" => 		["name" => "SnuviScript", 	"show" => true, "dropdown" => "snuviData"],
 	"jokes" => 		["name" => "Jokes", 		"show" => true, "dropdown" => ""],
-	"dynmap" => 	["name" => "Dynmap", 		"show" => true, "dropdown" => ""],
+	"map" => 	    ["name" => "Map", 		"show" => true, "dropdown" => ""],
 ];
 
 $gameplayData = [

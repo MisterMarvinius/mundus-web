@@ -1,10 +1,12 @@
 RewriteEngine On
 
 <IfModule mod_rewrite.c>
-
-    # 1. Redirect HTTP to HTTPS
-    RewriteCond %{HTTPS} off
-    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+    # 1. Redirect HTTP to HTTPS (proxy-aware)
+    # If behind reverse proxy, use X-Forwarded-Proto
+    RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]
+    # Don't redirect internal/tunnel/local requests
+    RewriteCond %{HTTP_HOST} !^(127\.0\.0\.1|localhost)(:\d+)?$ [NC]
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
     # 2. Trim URL to the first element
     RewriteCond %{REQUEST_URI} ^/([^/]+)(/.*|\.php.*)$
